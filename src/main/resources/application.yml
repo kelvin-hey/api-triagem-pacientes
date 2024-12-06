@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: API Triagem de Pacientes
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_triagem_pacientes
+    username: root
+    password: mysql
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
