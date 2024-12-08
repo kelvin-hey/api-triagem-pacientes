@@ -93,6 +93,14 @@ public class Paciente {
 
     public Paciente() {}
 
+    public Paciente(String nome, Long cpf, LocalDate dataNascimento, Integer idade, String sexo) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.dataNascimento = dataNascimento;
+        this.idade = idade;
+        this.sexo = sexo;
+    }
+
     public Paciente(String nome, Long cpf, Long cns, LocalDate dataNascimento, Integer idade, String sexo,
                     Long telefone, Long celular, String cidade, Integer cep, String logradouro,
                     Integer numeroResidencia, String complemento, String bairro, String uf, Etnia etnia,
