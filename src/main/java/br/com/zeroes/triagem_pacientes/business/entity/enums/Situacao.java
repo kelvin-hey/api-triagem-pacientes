@@ -1,4 +1,4 @@
-package br.com.zeroes.triagem_pacientes.model.enums;
+package br.com.zeroes.triagem_pacientes.business.entity.enums;
 
 public enum Situacao {
     AGUARDANDO("Aguardando Recepção"),

@@ -1,6 +1,6 @@
-package br.com.zeroes.triagem_pacientes.repository;
+package br.com.zeroes.triagem_pacientes.business.entity.repository;
 
-import br.com.zeroes.triagem_pacientes.model.Paciente;
+import br.com.zeroes.triagem_pacientes.business.entity.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
-package br.com.zeroes.triagem_pacientes.model;
+package br.com.zeroes.triagem_pacientes.business.entity;
 
-import br.com.zeroes.triagem_pacientes.model.enums.Etnia;
-import br.com.zeroes.triagem_pacientes.model.enums.Situacao;
+import br.com.zeroes.triagem_pacientes.business.entity.enums.Etnia;
+import br.com.zeroes.triagem_pacientes.business.entity.enums.Situacao;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalTime;

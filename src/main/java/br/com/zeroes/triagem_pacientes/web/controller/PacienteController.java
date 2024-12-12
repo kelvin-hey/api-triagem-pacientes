@@ -1,14 +1,11 @@
-package br.com.zeroes.triagem_pacientes.controller;
+package br.com.zeroes.triagem_pacientes.web.controller;
 
-import br.com.zeroes.triagem_pacientes.model.Paciente;
-import br.com.zeroes.triagem_pacientes.service.PacienteService;
+import br.com.zeroes.triagem_pacientes.business.entity.Paciente;
+import br.com.zeroes.triagem_pacientes.business.service.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/pacientes")
